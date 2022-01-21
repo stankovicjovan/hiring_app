@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+button {
+  background: #ff004c;
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+  margin: 0 0.5rem;
+  margin-top: 0.5rem;
+  height: 100%;
+}
+
+button:hover {
+  background: #c72656;
+}
+
+fieldset {
+  border: black 1px solid;
+}
+fieldset p {
+  padding: 0.5rem;
+}
+fieldset button {
+  margin: 1rem 0 0.5rem 0.5rem;
+}
+
+legend {
+  color: #ff004c;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+form textarea {
+  resize: none;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  transition: color 0.3s ease;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 20px;
+}
+
+/* Active user list */
+.data-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-preview:hover {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.data-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.data-list {
+  width: 50%;
+  border-right: 1px solid rgb(179, 179, 179);
+  padding-right: 2rem;
+}
+
+.data-preview a {
+  text-decoration: none;
+}
+
+/* User details page */
+.data-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.data-details div {
+  margin: 20px 0;
+}
+.data-details button {
+  background: #ff004c;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Create/edit new profile form */
+.create {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  font-size: 1rem;
+}
+
+.form-holder {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.form-card {
+  flex-basis: 50%;
+}
+
+/* Home page */
+
+.home {
+  display: flex;
+  gap: 2rem;
+}
+
+/* HiredList page */
+
+.hire-list {
+  flex-basis: 50%;
+}
+.hired-preview {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hired-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #ff004c;
+}
+
+.hired-price span:first-child {
+  color: #ff004c;
+  padding-bottom: 0.7rem;
+}
+
+.hired-date {
+  font-size: 0.9rem;
+}
+
+button.hire-btn {
+  width: 150px;
+  background: #00d134;
+  color: black;
+  font-weight: 800;
+}
+button.hire-btn:hover {
+  background: #018b18;
+}
+button.edit-btn {
+  width: 100px;
+  background: rgb(0, 132, 255);
+}
+button.edit-btn:hover {
+  background: rgb(0, 91, 177);
+}
+.data-title {
+  text-align: center;
+}
+.hiring-options legend {
+  font-size: 1.2rem;
+}
+.hiring-options legend span {
+  font-size: 1rem;
+  color: black;
+}
+.hiring-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hiring-options form label {
+  padding: 0 0.5rem;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+.form-warning {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}

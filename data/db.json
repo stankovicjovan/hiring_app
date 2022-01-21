@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "name": "Jovan Stankovic 1",
+      "description": "",
+      "email": "stank@stnk.com",
+      "technology": "python",
+      "number": "06415255445",
+      "price": "12",
+      "experience": "2",
+      "location": "Serbia",
+      "language": "Serbian",
+      "linkedin": "",
+      "picture": "",
+      "id": 1
+    },
+    {
+      "name": "Jurke Jurasin",
+      "description": "",
+      "email": "jura@gmail.com",
+      "technology": ".NET",
+      "number": "123123123",
+      "price": "17",
+      "experience": "6",
+      "location": "Bolivia",
+      "language": "Serbian",
+      "linkedin": "",
+      "picture": "",
+      "id": 2
+    },
+    {
+      "name": "Igor Radicevic",
+      "description": "Hello world!",
+      "email": "radic@gmail.com",
+      "technology": "flutter",
+      "number": "381644445578",
+      "price": "10",
+      "experience": "1",
+      "location": "Serbia",
+      "language": "Serbian",
+      "linkedin": "",
+      "picture": "",
+      "id": 3
+    },
+    {
+      "name": "Mihailo7",
+      "description": "Welcome to my profile!",
+      "email": "mixer@gmail.com",
+      "technology": "flutter",
+      "number": "0641505768",
+      "price": "12",
+      "experience": "12",
+      "location": "Serbia",
+      "language": "English",
+      "linkedin": "",
+      "picture": "",
+      "id": 4
+    },
+    {
+      "name": "Nemanja Rocker",
+      "description": "Hello there my name is Nemanja Rotman and I am a web developer.",
+      "email": "rotmanrocko@gmail.com",
+      "technology": "javascript",
+      "number": "381642587845",
+      "price": "14",
+      "experience": "3",
+      "location": "Serbia",
+      "language": "German",
+      "linkedin": "",
+      "picture": "",
+      "id": 5
+    }
+  ],
+  "hired": [
+    {
+      "name": "Nemanja Rocker",
+      "description": "Hello there my name is Nemanja Rotman and I am a web developer.",
+      "email": "rotmanrocko@gmail.com",
+      "technology": "javascript",
+      "number": "381642587845",
+      "price": "14",
+      "experience": "3",
+      "location": "Serbia",
+      "language": "German",
+      "linkedin": "",
+      "picture": "",
+      "id": 5,
+      "newDate": "2022-01-22",
+      "newExpiredDate": "2022-01-23"
+    }
+  ]
+}
